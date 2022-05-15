@@ -1,0 +1,36 @@
+* {margin:0px; padding: 0px; background-color: rgba(240, 255, 240, 0.192);}
+form{   margin: auto;
+        max-width: 800px;
+        height: 700px;
+        text-align: center;
+        background-color: rgba(77, 80, 122, 0.315);
+        display: block;
+        border: 20px solid darkblue;
+        border-top: none;
+        border-radius: 40px;        
+        }
+
+form > div { margin: 6px auto ; width: 700px; font: large bold; }
+form > h1  {padding: 10px; top: 0px; text-align: center; background-color: darkblue; color: white; font: bolder; }
+fieldset {width: 700px; height: 60px; margin: auto; text-align: center; font: large bold;}
+
+
+input[type="text"] ,[type="email"],[type="password"],[type="number"], select ,textarea{
+        height: 33px;
+        width: 80%;
+        border: none;
+        outline: none;
+        border-radius: 1px;
+        font: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: left; }
+
+input[type="submit"] { 
+        padding: 10px; border-radius: 20px; width: 150px;
+        background-color:darkblue; font: large bold;
+        color: white; }
+     
+input[type="submit"]:hover {cursor: pointer; background-color: rgba(0, 0, 255, 0.39); color:darkblue;}
+#gender:hover{cursor: pointer; background-color: rgba(0, 0, 139, 0.068); font: large bold;}
+#gender{text-align: center;}

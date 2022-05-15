@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Form.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    
+    <form action="" method="POST">
+        <h1>Contact Us</h1>
+        <div>Name  :<small>*</small>  
+            <input placeholder="Name" required type="text" name="username" id="name">
+                                
+        </div> <br>
+        <div>Email :<small>*</small>  <input placeholder="Email" required type="email" name="useremail" id="email"></div> <br>
+        <div>Password : <input placeholder="Password" type="password" name="userpassword" id="password"></div> <br>
+        <div>Number :<small>*</small> <input placeholder="Mobile Number" required type="number" name="usernumber" id="number"></div> <br>
+        <div>gender : <select required name="usergender" id="gender">
+            <option value="">Choose One</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="transgender">transgender</option>
+        </select></div> <br>
+        <div> <fieldset>
+            <legend>Programming :</legend>
+             Frontend <input type="checkbox" name="userskill" id="skill">
+             Backend <input type="checkbox" name="userskill" id="skill"></fieldset></div> <br>
+        
+         <fieldset>
+             <legend>Mode of Payment</legend>  
+                 Bank <input type="radio" name="userpayment" id="bank">
+                 Cash <input type="radio" name="userpayment" id="cash"></fieldset>   <br>
+        <div>Message : <textarea placeholder="Message" required name="usermessage" id="message" cols="60" rows="5"></textarea></div> <br>
+        <div><input type="submit" value="Submit" id="sub"></div> <br>
+
+    </form>
+</body>
+</html>
